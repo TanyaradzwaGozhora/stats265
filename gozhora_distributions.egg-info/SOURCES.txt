@@ -1,0 +1,10 @@
+setup.py
+gozhora_distributions/Binomialdistribution.py
+gozhora_distributions/Gaussiandistribution.py
+gozhora_distributions/Generaldistribution.py
+gozhora_distributions/__init__.py
+gozhora_distributions.egg-info/PKG-INFO
+gozhora_distributions.egg-info/SOURCES.txt
+gozhora_distributions.egg-info/dependency_links.txt
+gozhora_distributions.egg-info/not-zip-safe
+gozhora_distributions.egg-info/top_level.txt
