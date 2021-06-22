@@ -8,4 +8,4 @@ https://packaging.python.org/guides/installing-using-pip-and-virtual-environment
 https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
 
-then cd into your virtual environement and pip install TanyaDistributions
+then cd into your virtual environement and pip install gozhora-distributions
