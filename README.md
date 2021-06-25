@@ -1,5 +1,10 @@
 # DistributionPackage
-A pip package with a some statistics distributions
+A pip package aspiring to have all the distributions from STATS265(Stats 1) - Ualberta
+
+
+Currently:
+* Binomial
+* Gaussian (Normal)
 
 
 Strongly recommend running it on a virtual environment!
