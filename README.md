@@ -17,6 +17,9 @@ Testing was done using unittest library https://docs.python.org/3/library/unitte
 
 Installation:
     pip install gozhora-distributions
+ 
+Some need packages:
+    * matplotlib
 
 
 # Documentation:
