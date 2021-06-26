@@ -8,9 +8,9 @@ Currently:
 
 
 Strongly recommend running it on a virtual environment!
-https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+* https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+* https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
-https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
+Testing was done using unittest library https://docs.python.org/3/library/unittest.html
 
-then cd into your virtual environement and pip install gozhora-distributions
