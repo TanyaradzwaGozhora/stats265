@@ -19,3 +19,8 @@ Installation:
     pip install gozhora-distributions
 
 
+# Documentation:
+    * Calling a distribution
+        * from gozhora_distributions import Bernoulli
+    * Methods of distributions
+
