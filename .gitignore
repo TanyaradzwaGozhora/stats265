@@ -1,2 +1,8 @@
 # created by virtualenv automatically
 env/
+#ignore created tar file
+dist/
+#more created files
+gozhora_distributions.egg-info/
+#pycache
+pycache/
