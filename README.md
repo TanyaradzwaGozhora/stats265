@@ -1,8 +1,9 @@
 # DistributionPackage
-A pip package aspiring to have all the distributions from STATS265(Stats 1) - Ualberta
+A pip package which will hopefully have all the distributions from STATS265(Stats 1) - Ualberta soon
 
 
 Currently:
+* Bernoulli
 * Binomial
 * Gaussian (Normal)
 
@@ -13,4 +14,8 @@ Strongly recommend running it on a virtual environment!
 
 
 Testing was done using unittest library https://docs.python.org/3/library/unittest.html
+
+Installation:
+    pip install gozhora-distributions
+
 
