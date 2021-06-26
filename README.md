@@ -22,5 +22,32 @@ Installation:
 # Documentation:
     * Calling a distribution
         * from gozhora_distributions import Bernoulli
-    * Methods of distributions
+            * g = Bernolli(p = 0.7)
+        * from gozhora_distributions import Gaussian
+            * g = Gaussian(mean, stdev)
+        * from gozhora_distributions import Binomial
+            * g = Binomial(p = 0.7, n = 20)
+
+    * Methods of distributions (varies for obvious reasons)
+        * calculate_mean()
+            calculates and returns the mean
+        * calculate_stdev()
+            calculates and returns the standard deviation of the distribution
+
+        * plot_histogram()
+            plots a histogram of the data
+
+        * pdf(x)
+            returns probability density function for a value x
+
+        * plot_histogram_pdf()
+            Plots histogram of data and pdf
+
+        * add(Distribution)
+            Add a type of distribution with another
+                same type only for now
+
+        * __repr__():
+            Allows for representation on a print call
+    
 
