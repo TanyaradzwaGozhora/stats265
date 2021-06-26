@@ -31,7 +31,6 @@ class Gaussian(Distribution):
 		"""
 					
 		avg = 1.0 * sum(self.data) / len(self.data)
-		
 		self.mean = avg
 		
 		return self.mean
@@ -56,14 +55,12 @@ class Gaussian(Distribution):
 			n = len(self.data)
 	
 		mean = self.calculate_mean()
-	
 		sigma = 0
 	
 		for d in self.data:
 			sigma += (d - mean) ** 2
 		
 		sigma = math.sqrt(sigma / n)
-	
 		self.stdev = sigma
 		
 		return self.stdev
@@ -121,7 +118,7 @@ class Gaussian(Distribution):
 		min_range = min(self.data)
 		max_range = max(self.data)
 		
-		 # calculates the interval between x values
+		# calculates the interval between x values
 		interval = 1.0 * (max_range - min_range) / n_spaces
 
 		x = []
