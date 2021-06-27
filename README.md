@@ -8,7 +8,7 @@ Currently:
 * Gaussian (Normal)
 
 
-Strongly recommend running it on a virtual environment!
+Strongly recommend running it on a virtual environment! (as I'm still learning packages)
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 * https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
