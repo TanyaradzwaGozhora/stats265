@@ -6,9 +6,11 @@ Currently:
 * Bernoulli
 * Binomial
 * Gaussian (Normal)
+* Poisson
 
 
-Strongly recommend running it on a virtual environment! (as I'm still learning packages)
+
+If you a bit hesitant you can try it out on a virtual environment first
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 * https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
@@ -16,7 +18,7 @@ Strongly recommend running it on a virtual environment! (as I'm still learning p
 Testing was done using unittest library https://docs.python.org/3/library/unittest.html
 
 Installation:
-    pip install gozhora-distributions
+    pip install stats265
  
 Some need packages:
     * matplotlib
@@ -24,12 +26,14 @@ Some need packages:
 
 # Documentation:
     * Calling a distribution
-        * from gozhora_distributions import Bernoulli
+        * from stats265 import Bernoulli
             * g = Bernolli(p = 0.7)
-        * from gozhora_distributions import Gaussian
+        * from stats265 import Gaussian
             * g = Gaussian(mean, stdev)
-        * from gozhora_distributions import Binomial
+        * from stats265 import Binomial
             * g = Binomial(p = 0.7, n = 20)
+        * from stats265 import Poisson
+            * g = Poisson(mean)
 
     * Methods of distributions (varies for obvious reasons)
         * calculate_mean()
@@ -53,4 +57,10 @@ Some need packages:
         * __repr__():
             Allows for representation on a print call
     
+
+
+# Dependencies:
+
+* Matplotlib:
+    pip install matplotlib
 
