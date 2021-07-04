@@ -5,7 +5,7 @@ def readme():
 
 
 setup(name='stats265',
-    version='0.6',
+    version='0.72',
     description='Statistics distributions from 265',
     packages=['stats265'],
     author="Tanyaradzwa Gozhora",
