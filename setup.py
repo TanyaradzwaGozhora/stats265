@@ -16,7 +16,7 @@ setup(name='stats265',
     url="https://github.com/TanyaradzwaGozhora/stats265",
     download_url ="https://github.com/TanyaradzwaGozhora/stats265/releases/tag/v0.75",
     keywords = ["STATS", "STATISTICS", "DISTRIBUTION"],
-    _install_setup_requires=[
+    install_requires=[
         "math",
         "matplotlib"
          ],
