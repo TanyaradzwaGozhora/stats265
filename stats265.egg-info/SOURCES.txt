@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+stats265/Bernoullidistribution.py
+stats265/Binomialdistribution.py
+stats265/Gaussiandistribution.py
+stats265/Generaldistribution.py
+stats265/Poissondistribution.py
+stats265/__init__.py
+stats265.egg-info/PKG-INFO
+stats265.egg-info/SOURCES.txt
+stats265.egg-info/dependency_links.txt
+stats265.egg-info/not-zip-safe
+stats265.egg-info/requires.txt
+stats265.egg-info/top_level.txt
+test/test.py
