@@ -10,7 +10,7 @@ Currently:
 
 
 
-If you are risk averse, you can try it out on a virtual environment first
+If you are risk averse, as always, you can try it out on a virtual environment first
 * https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 * https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
