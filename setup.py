@@ -5,7 +5,7 @@ def readme():
 
 
 setup(name='stats265',
-    version='0.75',
+    version='0.77',
     description='Statistics distributions from 265',
     packages=['stats265'],
     license="MIT",

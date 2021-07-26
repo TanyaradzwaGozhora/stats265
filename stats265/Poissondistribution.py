@@ -13,7 +13,7 @@ class Poisson(Distribution):
 			
 	"""
 	def __init__(self, mean=1):
-		Distribution.__init__(self, mean, mean**2)
+		Distribution.__init__(self, mean, math.sqrt(mean))
 	
 		
 	

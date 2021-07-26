@@ -8,11 +8,12 @@ import unittest
 
 from stats265 import Gaussian
 from stats265 import Binomial
+from stats265 import Poisson
 
 class TestGaussianClass(unittest.TestCase):
     def setUp(self):
         self.gaussian = Gaussian(25, 2)
-        self.gaussian.read_data_file('numbers.txt')
+        self.gaussian.read_data_file('numbers_gaussian.txt')
 
     def test_initialization(self): 
         self.assertEqual(self.gaussian.mean, 25, 'incorrect mean')
@@ -87,7 +88,38 @@ class TestBinomialClass(unittest.TestCase):
         
         self.assertEqual(binomial_sum.p, .4)
         self.assertEqual(binomial_sum.n, 80)
-        
+
+class TestPoissonClass(unittest.TestCase):      
+    def setUp(self):
+        self.poisson = Poisson(100)
+        self.poisson.read_data_file('numbers_poisson.txt')
+
+    def test_initialization(self): 
+        self.assertEqual(self.poisson.mean, 100, 'incorrect mean')
+        self.assertEqual(self.poisson.stdev ,10 , 'incorrect standard deviation')
+
+    def test_readdata(self):
+        pass
+
+    def test_meancalculation(self):
+        # TODO
+        pass
+
+    def test_stdevcalculation(self):
+        # TODO
+        pass
+
+    def test_pdf(self):
+        # TODO
+        pass
+
+    def test_add(self):
+        # TODO
+        pass
+
+
+
+
     
 if __name__ == '__main__':
     unittest.main()
